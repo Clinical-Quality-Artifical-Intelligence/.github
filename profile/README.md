@@ -27,17 +27,6 @@ We develop and maintain open-source projects that:
 ✅ **Promote health equity** by addressing bias in AI and healthcare delivery  
 ✅ **Foster innovation** in person-centred, evidence-based nursing care
 
----
-
-## 🚀 Featured Projects
-
-### 🎓 [AI in Nursing Education Toolkit](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-ai-toolkit)
-A comprehensive multimodal learning toolkit for UK nursing educators to integrate Generative AI responsibly into teaching practice.
-- **Live Demo:** [practicedev.cloud](https://practicedev.cloud/)
-- **Features:** Interactive AI tools, NMC-aligned guidance, case studies, responsible use frameworks
-- **Technologies:** Docusaurus, React, TypeScript, Python
-- **Status:** ⭐ Active Development | 📚 Public
-
 ### 🏥 [NurseSim-RL: Clinical Triage Environment](https://github.com/Clinical-Quality-Artifical-Intelligence/NurseSim-RL)
 AI-powered clinical triage simulation using the Manchester Triage System (MTS). OpenEnv Challenge 2026 entry with A2A protocol support.
 - **Live Demo:** [HuggingFace Space](https://huggingface.co/spaces/NurseCitizenDeveloper/NurseSim-Triage-Demo)

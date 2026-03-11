@@ -130,11 +130,27 @@ All student-facing tools are mapped to the **NMC Standards of Proficiency for Re
 [![GitHub](https://img.shields.io/badge/GitHub-@ClinyQAi-181717?style=flat-square&logo=github)](https://github.com/ClinyQAi)
 [![Website](https://img.shields.io/badge/Website-practicedev.cloud-005EB8?style=flat-square)](https://practicedev.cloud/)
 
-### Key Collaborator
+### Key Collaborators
 
 **Kelly Thobekile Ncube, RN** — Senior Lecturer in Adult Nursing (SFHEA) | Global Health Lecturer Volunteer Fellow
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelly%20Ncube-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kelly-thobekile-ncube-24502069/)
+
+**Kumbi Kariwo, FRCN QN** — Health Inequalities & AI Equity Lead
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kumbi%20Kariwo-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kumbi-kariwo-frcn-qn-46bb72167/)
+
+**Prof. Joanne Bosanquet MBE** — CEO, Foundation of Nursing Studies
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Prof.%20Joanne%20Bosanquet-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/joanne-bosanquet-mbe/)
+
+**Hector Musonza** — Practice Education & Preceptorship Lead
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hector%20Musonza-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/fungai-hector-musonza-4a573371/)
+
+**Winnie George** — National Programme Lead (Retention)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Winnie%20George-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/winnie-george-60213993/)
 
 ---
 

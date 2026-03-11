@@ -1,203 +1,197 @@
+<div align="center">
+
 # 🏥 Clinical Quality Artificial Intelligence
 
-### Building AI-Powered Healthcare Solutions for Nursing Excellence
+### Open-Source AI Tools for UK Nursing Education & Clinical Practice
 
-> **Empowering nurse educators, clinicians, and students through innovative AI applications, FHIR standards, and digital health transformation.**
+[![Website](https://img.shields.io/badge/Website-practicedev.cloud-005EB8?style=for-the-badge)](https://practicedev.cloud/)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-NurseCitizenDeveloper-FFD21E?style=for-the-badge)](https://huggingface.co/NurseCitizenDeveloper)
+[![GitHub Followers](https://img.shields.io/github/followers/Clinical-Quality-Artifical-Intelligence?style=for-the-badge&logo=github&label=Follow)](https://github.com/Clinical-Quality-Artifical-Intelligence)
+[![Location](https://img.shields.io/badge/📍-United%20Kingdom-DA291C?style=for-the-badge)](#)
+
+*Built by nurses, for nurses — free, open-source, and deployable in minutes.*
+
+</div>
 
 ---
 
 ## 👋 About Us
 
-Welcome to **Clinical Quality Artificial Intelligence** (ClinyQAi) – a collaborative open-source organization dedicated to advancing nursing practice, education, and patient care through artificial intelligence and healthcare informatics.
+**Clinical Quality Artificial Intelligence** is a UK-based open-source organisation founded by **Lincoln Gombedza**, Registered Learning Disability Nurse (RNLD) and Practice Educator.
 
-Founded by **Lincoln Gombedza**, Registered Learning Disability Nurse (RNLD) and Practice Educator, we champion the **"Nurse as Citizen Developer"** movement, empowering healthcare professionals to build their own AI-powered tools and solutions.
+We champion the **"Nurse as Citizen Developer"** movement — empowering nurses and nursing students to build, use, and understand AI-powered clinical tools without needing a computer science degree. Every tool we build is free, requires no API keys (unless stated), and is deployable to Hugging Face Spaces in minutes.
 
-**Location:** United Kingdom 🇬🇧  
-**Focus Areas:** AI in Nursing Education | FHIR Implementation | Clinical Triage Systems | Digital Health Innovation
+> 💡 *"Technology built by those who understand the ward is technology that works on the ward."*
 
 ---
 
 ## 🎯 Our Mission
 
-We develop and maintain open-source projects that:
+> To make high-quality, evidence-based digital tools freely available to every nursing student and registered nurse in the UK — and beyond.
 
-✅ **Enhance nursing education** with multimodal AI learning tools  
-✅ **Improve clinical practice** through intelligent decision support systems  
-✅ **Advance healthcare standards** with FHIR-compliant implementations  
-✅ **Promote health equity** by addressing bias in AI and healthcare delivery  
-✅ **Foster innovation** in person-centred, evidence-based nursing care
-
-### 🏥 [NurseSim-RL: Clinical Triage Environment](https://github.com/Clinical-Quality-Artifical-Intelligence/NurseSim-RL)
-AI-powered clinical triage simulation using the Manchester Triage System (MTS). OpenEnv Challenge 2026 entry with A2A protocol support.
-- **Live Demo:** [HuggingFace Space](https://huggingface.co/spaces/NurseCitizenDeveloper/NurseSim-Triage-Demo)
-- **Model:** Fine-tuned Llama 3.2 3B (60% validation accuracy)
-- **Features:** Gymnasium-compatible RL environment, Age-aware risk stratification, AgentBeats integration
-- **Technologies:** Python, Reinforcement Learning, Docker, Gradio
-- **Status:** 🏆 Competition Entry | 📚 Public
-
-### 🤖 [Nursing Council Agent](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-council-agent)
-Multi-perspective AI peer review tool for nursing education, simulating a council of experts (Academic, Clinical, Student perspectives).
-- **Technologies:** Python, LiteLLM, Multi-agent systems
-- **Status:** ⚡ Active | 📚 Public
-
-### 🩺 [Professional Nurse Advocate Assistant](https://github.com/Clinical-Quality-Artifical-Intelligence/Professional-Nurse-Advocate-Assistant)
-AI assistant supporting Professional Nurse Advocates (PNA) in their restorative supervision roles.
-- **Technologies:** Python
-- **Status:** 🔬 Development | 📚 Public
-
-### 💉 [Open Nursing Validator](https://github.com/Clinical-Quality-Artifical-Intelligence/open-nursing-validator)
-TypeScript/Node.js validation service for nursing-specific healthcare data with FHIR, NHS, and clinical standards compliance.
-- **Technologies:** TypeScript, Express, Zod, FHIR
-- **Status:** 🔒 Private | 🔧 Under Development
-
-### 📋 [Open Nursing Core Implementation Guide](https://github.com/Clinical-Quality-Artifical-Intelligence/open-nursing-core-ig)
-FHIR Implementation Guide (ONC-IG) providing foundational FHIR profiles for the nursing process (ADPIE).
-- **Technologies:** FHIR, FSH (FHIR Shorthand), HL7, SUSHI
-- **Status:** 🔒 Private | 📖 Documentation
-
-### 🌍 [Health Inclusion Coach](https://github.com/Clinical-Quality-Artifical-Intelligence/Health-Inclusion-Coach)
-Digital toolkit and AI-powered support platform to help NHS teams embed inclusion, equity, and belonging into clinical practice and leadership.
-- **Technologies:** TypeScript, AI coaching modules
-- **Status:** 💡 Active | 📚 Public
-
-### 🌐 [Syria-Med Connect](https://github.com/Clinical-Quality-Artifical-Intelligence/syria-med-connect)
-Offline-first Progressive Web App (PWA) for medical education in resource-constrained settings.
-- **Technologies:** Vue.js, PWA
-- **Status:** 🔒 Private | 🚧 Beta
+| | |
+|-|-|
+| 📚 | **Enhance nursing education** with interactive, evidence-based learning tools |
+| 🏥 | **Support clinical practice** with decision-support and reference tools |
+| 🤖 | **Advance AI literacy** in nursing through hands-on, accessible technology |
+| 🌈 | **Promote health equity** by removing cost and access barriers |
+| 🔓 | **Stay open source** — transparent, collaborative, community-driven |
 
 ---
 
-## 🛠️ Technologies We Use
+## 🛠️ Free Nursing Education Tools
 
-**Programming Languages:**  
-`Python` `TypeScript` `JavaScript` `FSH` `Jupyter Notebooks`
+*A growing suite of free Streamlit apps — open source, no API keys, no login required.*
 
-**AI/ML Frameworks:**  
-`PyTorch` `Transformers` `Unsloth` `LiteLLM` `Gymnasium` `Reinforcement Learning`
+### 📖 Research & Academic Writing
 
-**Healthcare Standards:**  
-`FHIR` `HL7` `SUSHI/FSH` `Manchester Triage System` `NMC Standards`
+| Tool | Description | Launch |
+|------|-------------|--------|
+| **[EBP Research Tool](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-ebp-tool)** | Multi-database search (PubMed + ClinicalTrials.gov), evidence grading (Melnyk I–VII), Vancouver / Harvard / APA 7th citations, PRISMA 2020 flow tracker | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-ebp-tool) |
+| **[AI Research & Academic Writer](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-research-writer)** | Literature review, essay writer, dissertation, reflective accounts (Gibbs/Driscoll/Johns), NMC Revalidation CPD, NMC 7-platform mapping, Vancouver + Harvard citations. BYOK (Claude API) | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-research-writer) |
 
-**Cloud & DevOps:**  
-`Docker` `GitHub Actions` `HuggingFace Spaces` `Google Cloud` `Azure` `Cloudflare`
+### 💊 Medicines Management
 
-**Web Frameworks:**  
-`Docusaurus` `React` `Vue.js` `Express` `Gradio` `Streamlit`
+| Tool | Description | Launch |
+|------|-------------|--------|
+| **[Drug Card Generator](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-drug-cards)** | FDA + RxNorm drug cards with nursing considerations for 12+ classes, black box warnings, drug interactions, side-by-side compare | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-drug-cards) |
+| **[Drug Calculations Trainer](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-drug-calc)** | 7 UK calculation types: tablets, IV mL/hr, drip drops/min, mg/kg, mcg/kg/min, % solutions. Infinite dynamic questions, exam mode (5–30 Qs), step-by-step worked solutions | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-drug-calc) |
+| **[Medication Safety Checker](https://github.com/Clinical-Quality-Artifical-Intelligence/medication-safety)** | ISMP 2023 high-alert meds, RxNorm drug interaction API, dose safety checker (30+ drugs), LASA warnings (30+ pairs), Nine Rights checklist | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/medication-safety) |
+
+### 🏥 Clinical Skills & Assessment
+
+| Tool | Description | Launch |
+|------|-------------|--------|
+| **[NEWS2 Clinical Deterioration Hub](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-news2)** | Full RCP 2017 NEWS2 calculator (SpO₂ Scale 1 & 2), ABCDE primary survey + Sepsis Six, SBAR handover builder with Word .docx download, clinical reference guide | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-news2) |
+| **[Clinical Assessment Scales Hub](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-assessment-scales)** | 7 validated scales: Waterlow, MUST, Morse, STRATIFY, Abbey Pain Scale, PHQ-9 (suicidal ideation safety alert), MMSE — all with colour-coded risk levels and management guidance | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-assessment-scales) |
+| **[Case Study Builder](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-case-studies)** | 10 clinical cases (STEMI, DKA, Sepsis, Stroke, AKI, NOF fracture…), ADPIE reasoning with model answers, NCLEX-style MCQs, NANDA care plan builder | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-case-studies) |
+
+### 🎓 Exam Preparation & Professional Registration
+
+| Tool | Description | Launch |
+|------|-------------|--------|
+| **[NCLEX Practice Question Generator](https://github.com/Clinical-Quality-Artifical-Intelligence/nclex-prep)** | MCQ, SATA, dosage calculations, category & difficulty filters, full rationales, score breakdown, wrong answer review | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nclex-prep) |
+| **[NMC CBT Practice Questions](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-nmc-cbt)** | 30 expert-written MCQs across all 7 NMC platforms + NMC Code, full rationales with NMC/NICE/UK law references, platform & difficulty filters, exam mode | [![HF](https://img.shields.io/badge/🤗-Open%20App-blue?style=flat-square)](https://huggingface.co/spaces/NurseCitizenDeveloper/nursing-nmc-cbt) |
 
 ---
 
-## 👥 Connect With Us
+## 🤖 AI & Simulation Research Projects
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| **[NurseSim-RL](https://github.com/Clinical-Quality-Artifical-Intelligence/NurseSim-RL)** | AI clinical triage simulation using Manchester Triage System. OpenEnv Challenge 2026 entry with A2A protocol, Gymnasium-compatible RL environment | 🏆 Competition Entry |
+| **[Nursing Council Agent](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-council-agent)** | Multi-perspective AI peer review tool simulating academic, clinical, and student voices for nursing education quality | ⚡ Active |
+| **[Professional Nurse Advocate Assistant](https://github.com/Clinical-Quality-Artifical-Intelligence/Professional-Nurse-Advocate-Assistant)** | AI assistant supporting Professional Nurse Advocates (PNA) in restorative clinical supervision | 🔬 Development |
+| **[Health Inclusion Coach](https://github.com/Clinical-Quality-Artifical-Intelligence/Health-Inclusion-Coach)** | AI-powered platform helping NHS teams embed inclusion, equity, and belonging into clinical practice and leadership | 💡 Active |
+| **[Open Nursing Validator](https://github.com/Clinical-Quality-Artifical-Intelligence/open-nursing-validator)** | TypeScript/Node.js FHIR-compliant validation service for nursing-specific healthcare data | 🔧 In Development |
+
+---
+
+## 🧰 Technology Stack
+
+<div align="center">
+
+| Layer | Technologies |
+|-------|-------------|
+| **Languages** | Python · TypeScript · JavaScript · FSH (FHIR Shorthand) |
+| **AI / ML** | PyTorch · Transformers · Anthropic Claude API · LiteLLM · Reinforcement Learning |
+| **Healthcare Standards** | FHIR · HL7 · NMC Standards (2018) · RCP NEWS2 · NICE Guidelines · BAPEN MUST |
+| **Clinical APIs** | NCBI PubMed · ClinicalTrials.gov · openFDA · RxNorm/NLM · NIH ISMP |
+| **Web & Apps** | Streamlit · Gradio · React · Vue.js · Docusaurus · python-docx |
+| **CI/CD & Cloud** | GitHub Actions · Hugging Face Spaces · Docker · Azure · Cloudflare |
+
+</div>
+
+---
+
+## 📋 NMC Standards Alignment
+
+All student-facing tools are mapped to the **NMC Standards of Proficiency for Registered Nurses (2018)**:
+
+| NMC Platform | Tools |
+|---|---|
+| **Platform 1** — Being an accountable professional | NMC CBT Practice · AI Research Writer |
+| **Platform 2** — Promoting health and preventing ill health | NMC CBT Practice · Assessment Scales (PHQ-9) |
+| **Platform 3** — Assessing needs and planning care | Assessment Scales · Case Studies · NEWS2 Hub · EBP Research Tool |
+| **Platform 4** — Providing and evaluating care | Drug Calc Trainer · Drug Cards · NEWS2 Hub · Medication Safety |
+| **Platform 5** — Leading and managing nursing care | NMC CBT Practice · AI Research Writer |
+| **Platform 6** — Improving safety and quality of care | Medication Safety · NEWS2 Hub · Assessment Scales |
+| **Platform 7** — Coordinating care | NMC CBT Practice · SBAR Builder (NEWS2 Hub) |
+
+---
+
+## 👥 Who We Are
 
 ### Founder & Lead Developer
-**Lincoln Gombedza, RN (LD)**  
-Registered Learning Disability Nurse | Practice Educator | AI in Healthcare Innovator
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/lincoln-gombedza)
-- 🐙 [GitHub: @ClinyQAi](https://github.com/ClinyQAi)
-- 🌐 [Project Website](https://practicedev.cloud/)
-- 📧 Contact via GitHub Discussions
+**Lincoln Gombedza, RNLD** — Registered Learning Disability Nurse | Practice Educator | Nurse Citizen Developer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lincoln%20Gombedza-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/lincoln-gombedza)
+[![GitHub](https://img.shields.io/badge/GitHub-@ClinyQAi-181717?style=flat-square&logo=github)](https://github.com/ClinyQAi)
+[![Website](https://img.shields.io/badge/Website-practicedev.cloud-005EB8?style=flat-square)](https://practicedev.cloud/)
 
 ### Key Collaborator
-**Kelly Thobekile Ncube, RN**  
-Senior Lecturer in Adult Nursing (SFHEA) | Global Health Lecturer Volunteer Fellow
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/kelly-thobekile-ncube-24502069/)
+**Kelly Thobekile Ncube, RN** — Senior Lecturer in Adult Nursing (SFHEA) | Global Health Lecturer Volunteer Fellow
 
----
-
-## 🤝 Contributing
-
-We welcome contributions from the nursing, healthcare, and tech communities!
-
-### How to Get Involved
-
-1. **⭐ Star** repositories that interest you
-2. **🐛 Report issues** or suggest features
-3. **💡 Submit pull requests** with improvements
-4. **📖 Improve documentation** and educational content
-5. **🗣️ Join discussions** about healthcare AI ethics and implementation
-
-### Contribution Guidelines
-
-Please review individual repository CONTRIBUTING.md files for specific guidelines. We maintain:
-- ✅ Code of Conduct for respectful collaboration
-- ✅ Security policies for responsible disclosure
-- ✅ Clear licensing (typically MIT or CC BY-NC 4.0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelly%20Ncube-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kelly-thobekile-ncube-24502069/)
 
 ---
 
 ## 🙏 Acknowledgements
 
-**Mentors & Champions:**
-- **Aisha Holloway** – Chief Nursing Officer for Scotland
-- **Professor Joanne Bosanquet** – Chief Executive, Foundation of Nursing Studies
-- **Dr Clare Cable** – Chief Executive, Burdett Trust for Nursing
-- **Professor Gemma Stacey** – Programme Director, Nursing Now Challenge
-- **Josie Rudman MBE** – NHS England, Mutual Mentor
-- **Kumbi Kariwo** – Health Inequalities Lead, AI Equity Champion
-- **Rohit Sagoo** – Children's Nurse & Innovation Mentor
-- **Dr Hellena Habte-Asres** – Clinical Academic Nurse & Researcher
-- **Hector Musonza** – Practice Education & Preceptorship Lead
+We are grateful to our mentors and champions across the nursing and healthcare innovation community:
 
-**Organizations:**
-- Foundation of Nursing Studies (FoNS)
-- Nursing and Midwifery Council (NMC)
-- Royal College of Nursing (RCN)
-- Burdett Trust for Nursing
-- Nursing Now Challenge
-- Global Health Mentorships
+**Aisha Holloway** — Chief Nursing Officer for Scotland &nbsp;·&nbsp;
+**Prof. Joanne Bosanquet** — CEO, Foundation of Nursing Studies &nbsp;·&nbsp;
+**Dr Clare Cable** — CEO, Burdett Trust for Nursing &nbsp;·&nbsp;
+**Prof. Gemma Stacey** — Programme Director, Nursing Now Challenge &nbsp;·&nbsp;
+**Josie Rudman MBE** — NHS England, Mutual Mentor &nbsp;·&nbsp;
+**Kumbi Kariwo** — Health Inequalities & AI Equity Lead &nbsp;·&nbsp;
+**Rohit Sagoo** — Children's Nurse & Innovation Mentor &nbsp;·&nbsp;
+**Dr Hellena Habte-Asres** — Clinical Academic Nurse & Researcher &nbsp;·&nbsp;
+**Hector Musonza** — Practice Education & Preceptorship Lead
+
+*Supported by: Foundation of Nursing Studies (FoNS) · Burdett Trust for Nursing · Royal College of Nursing (RCN) · Nursing Now Challenge · Global Health Mentorships*
 
 ---
 
-## 📊 Organization Stats
+## 🤝 Contributing
 
-- 📦 **15 Repositories** (Public & Private)
-- 🌍 **Location:** United Kingdom
-- 🎓 **Focus:** AI in Nursing, FHIR, Clinical Informatics
-- 🤖 **Specialization:** Healthcare AI, Education Tech, Clinical Decision Support
+We welcome contributions from nurses, nursing educators, healthcare technologists, and developers at all levels.
 
----
+| How to contribute | |
+|---|---|
+| ⭐ **Star a repository** | Show support and help others discover these tools |
+| 🐛 **Open an issue** | Report a bug, clinical inaccuracy, or suggest a feature |
+| 🔀 **Submit a pull request** | Add questions, fix bugs, improve UI — all welcome |
+| 📖 **Improve documentation** | Clinical accuracy in descriptions matters enormously |
+| 💬 **Start a discussion** | Help shape the roadmap and ethical AI priorities |
 
-## 📜 License & Attribution
-
-Projects in this organization use various open-source licenses:
-- **MIT License** – Code and software tools
-- **CC BY-NC 4.0** – Educational content and documentation
-- **Apache 2.0** – Selected applications
-
-Please refer to individual repository LICENSE files for specific terms.
+All projects use the **MIT Licence** unless stated. Please review individual repository `CONTRIBUTING.md` files for specific guidelines.
 
 ---
 
 ## 🌟 Our Values
 
-💙 **Person-Centred Care** – Putting patients and families at the heart of everything  
-🤝 **Evidence-Based Practice** – Grounded in nursing research and clinical expertise  
-🌈 **Health Equity** – Addressing disparities and bias in healthcare AI  
-🔓 **Open Source** – Transparent, collaborative development for the community  
-🎓 **Lifelong Learning** – Supporting continuous professional development  
-⚖️ **Ethical AI** – Responsible, safe, and fair use of artificial intelligence
-
----
-
-## 🚀 Get Started
-
-Explore our repositories to find projects that align with your interests:
-
-- 🎓 **Educators:** Check out the [AI in Nursing Education Toolkit](https://github.com/Clinical-Quality-Artifical-Intelligence/nursing-ai-toolkit)
-- 💻 **Developers:** Contribute to [NurseSim-RL](https://github.com/Clinical-Quality-Artifical-Intelligence/NurseSim-RL) or [Open Nursing Validator](https://github.com/Clinical-Quality-Artifical-Intelligence/open-nursing-validator)
-- 📊 **Researchers:** Explore our FHIR Implementation Guides and healthcare standards work
-- 🤖 **AI Enthusiasts:** Try our agent-based systems and reinforcement learning environments
+| | |
+|-|-|
+| 💙 | **Person-Centred** — patients and families at the heart of everything we build |
+| 📊 | **Evidence-Based** — grounded in validated clinical tools and UK guidelines |
+| 🌈 | **Equitable** — removing financial and access barriers to quality education |
+| 🔓 | **Open Source** — transparent, auditable, community-owned |
+| ⚖️ | **Ethical AI** — responsible, explainable, and clinically appropriate |
+| 🎓 | **Lifelong Learning** — supporting every stage of a nursing career |
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the Global Nursing Community**
+**Made with ❤️ for the UK nursing community and nursing students worldwide**
 
-*Advancing Healthcare Through Innovation, Education, and Evidence-Based Practice*
+*If these tools help even one student pass their medicines management exam, it's worth it.*
 
-[![Visit Our Website](https://img.shields.io/badge/Website-practicedev.cloud-blue?style=for-the-badge)](https://practicedev.cloud/)
-[![Follow on GitHub](https://img.shields.io/github/followers/Clinical-Quality-Artifical-Intelligence?style=for-the-badge&logo=github)](https://github.com/Clinical-Quality-Artifical-Intelligence)
+[![Explore All Tools on Hugging Face](https://img.shields.io/badge/🤗%20Explore%20All%20Tools-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/NurseCitizenDeveloper)
+[![Visit Our Website](https://img.shields.io/badge/🌐%20Visit%20Website-practicedev.cloud-005EB8?style=for-the-badge)](https://practicedev.cloud/)
 
 </div>

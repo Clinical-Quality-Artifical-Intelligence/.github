@@ -128,7 +128,7 @@ All student-facing tools are mapped to the **NMC Standards of Proficiency for Re
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Lincoln%20Gombedza-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/lincoln-gombedza)
 [![GitHub](https://img.shields.io/badge/GitHub-@ClinyQAi-181717?style=flat-square&logo=github)](https://github.com/ClinyQAi)
-[![Website](https://img.shields.io/badge/Website-practicedev.cloud-005EB8?style=flat-square)](https://practicedev.cloud/)
+
 
 ### Key Collaborators
 

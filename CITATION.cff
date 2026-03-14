@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use CQAI tools in your research or teaching, please cite as below."
+type: software
+title: "Clinical Quality Artificial Intelligence (CQAI) — Nursing Education Tools"
+abstract: >
+  A suite of open-source AI-powered tools for UK nursing education and clinical
+  practice. Tools include an EBP Research Tool, Drug Card Generator, Drug
+  Calculations Trainer, Medication Safety Checker, Clinical Assessment Scales Hub,
+  NEWS2 Clinical Deterioration Hub, Case Study Builder, NCLEX Practice Question
+  Generator, NMC CBT Practice Questions, and an AI Research & Academic Writer.
+  All tools are freely deployable on Hugging Face Spaces and require no API keys
+  (unless stated). Built in alignment with NMC Standards of Proficiency (2018).
+authors:
+  - family-names: Gombedza
+    given-names: Lincoln
+    orcid: ""
+    affiliation: "Clinical Quality Artificial Intelligence"
+    email: nursingcitizendevelopment@gmail.com
+  - family-names: Ncube
+    given-names: "Kelly Thobekile"
+    affiliation: "Senior Lecturer in Adult Nursing"
+  - family-names: Kariwo
+    given-names: Kumbi
+    affiliation: "Health Inequalities & AI Equity Lead"
+  - family-names: Musonza
+    given-names: Hector
+    affiliation: "Practice Education & Preceptorship Lead"
+  - family-names: Habte-Asres
+    given-names: Hellena
+    affiliation: "Lead Clinical Academic Research Nurse"
+  - family-names: George
+    given-names: Winnie
+    affiliation: "National Programme Lead (Retention)"
+repository-code: "https://github.com/Clinical-Quality-Artifical-Intelligence"
+url: "https://nursingcitizendevelopment.com"
+license: MIT
+keywords:
+  - nursing
+  - nursing education
+  - clinical decision support
+  - evidence-based practice
+  - NMC standards
+  - UK nursing
+  - NCLEX
+  - drug calculations
+  - medication safety
+  - artificial intelligence
+  - healthcare
+  - citizen developer
+  - Streamlit
+  - Hugging Face
+date-released: "2025-01-01"
+version: "1.0.0"

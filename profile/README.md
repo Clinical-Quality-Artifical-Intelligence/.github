@@ -4,7 +4,7 @@
 
 ### Open-Source AI Tools for UK Nursing Education & Clinical Practice
 
-[![Website](https://img.shields.io/badge/Website-[www.nursingcitizendevelopment.com](https://nursingcitizendevelopment.com/)-005EB8?style=for-the-badge)]([https://www.nursingcitizendevelopment.com](https://nursingcitizendevelopment.com/)/)
+[![Website](https://img.shields.io/badge/Website-(https://nursingcitizendevelopment.com/)-005EB8?style=for-the-badge)(https://nursingcitizendevelopment.com/)/)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-NurseCitizenDeveloper-FFD21E?style=for-the-badge)](https://huggingface.co/NurseCitizenDeveloper)
 [![GitHub Followers](https://img.shields.io/github/followers/Clinical-Quality-Artifical-Intelligence?style=for-the-badge&logo=github&label=Follow)](https://github.com/Clinical-Quality-Artifical-Intelligence)
 [![Location](https://img.shields.io/badge/📍-United%20Kingdom-DA291C?style=for-the-badge)](#)
@@ -192,6 +192,6 @@ All projects use the **MIT Licence** unless stated. Please review individual rep
 *If these tools help even one student pass their medicines management exam, it's worth it.*
 
 [![Explore All Tools on Hugging Face](https://img.shields.io/badge/🤗%20Explore%20All%20Tools-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/NurseCitizenDeveloper)
-[![Website](https://img.shields.io/badge/Website-[www.nursingcitizendevelopment.com](https://nursingcitizendevelopment.com/)-005EB8?style=for-the-badge)](https://www.nursingcitizendevelopment.com/)
+[![Website](https://img.shields.io/badge/Website-(https://nursingcitizendevelopment.com/)-005EB8?style=for-the-badge)](https://www.nursingcitizendevelopment.com/)
 
 </div>

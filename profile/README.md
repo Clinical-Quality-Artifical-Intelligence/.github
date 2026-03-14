@@ -192,6 +192,6 @@ All projects use the **MIT Licence** unless stated. Please review individual rep
 *If these tools help even one student pass their medicines management exam, it's worth it.*
 
 [![Explore All Tools on Hugging Face](https://img.shields.io/badge/🤗%20Explore%20All%20Tools-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/NurseCitizenDeveloper)
-[![Website](https://img.shields.io/badge/Website-(https://nursingcitizendevelopment.com/)-005EB8?style=for-the-badge)](https://www.nursingcitizendevelopment.com/)
+[![Website](https://img.shields.io/badge/Website-nursingcitizendevelopment.com-005EB8?style=for-the-badge)](https://nursingcitizendevelopment.com/)
 
 </div>

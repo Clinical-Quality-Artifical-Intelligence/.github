@@ -15,4 +15,4 @@
 
 ## 👋 About Us
 
-** Clinical Quality Artificial Intelligence is a UK-based open-source organisation founded by Lincoln Gombedza , Registered Learning Disability Nurse (RNLD) and Practice Educator.
+**Clinical Quality Artificial Intelligence is a UK-based open-source organisation founded by Lincoln Gombedza, Registered Learning Disability Nurse (RNLD) and Practice Educator.**

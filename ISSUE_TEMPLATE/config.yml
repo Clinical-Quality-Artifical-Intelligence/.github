@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🤗 Report a bug in a Hugging Face Space
+    url: https://huggingface.co/NurseCitizenDeveloper
+    about: "For issues with a deployed Streamlit app, open the Space on Hugging Face and use the 'Community' tab to post directly."
+  - name: 💬 Start a discussion or ask a question
+    url: https://github.com/orgs/Clinical-Quality-Artifical-Intelligence/discussions
+    about: "Use GitHub Discussions for questions, ideas, and community conversation."
+  - name: 🔒 Report a security or clinical safety issue
+    url: mailto:nursingcitizendevelopment@gmail.com
+    about: "For clinical safety concerns or technical security vulnerabilities, please email us directly — do not open a public issue."
+  - name: 🌐 Visit the website
+    url: https://nursingcitizendevelopment.com
+    about: "Learn more about the Nurse Citizen Developer initiative."

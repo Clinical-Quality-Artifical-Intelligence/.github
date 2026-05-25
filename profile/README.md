@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,005EB8,003087&height=200&section=header&text=Clinical%20Quality%20AI&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Open-Source%20AI%20%7C%20UK%20Nursing%20Education%20%26%20Clinical%20Practice&descAlignY=56&descAlign=50&descSize=18" width="100%" />
+<img src="banner.svg" alt="Clinical Quality Artificial Intelligence — Open-Source AI for UK Nursing" width="100%" />
 
 <div align="center">
 
@@ -6,7 +6,6 @@
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-NurseCitizenDeveloper-FFD21E?style=for-the-badge)](https://huggingface.co/NurseCitizenDeveloper)
 [![GitHub Followers](https://img.shields.io/github/followers/Clinical-Quality-Artifical-Intelligence?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/Clinical-Quality-Artifical-Intelligence)
 [![Location](https://img.shields.io/badge/📍_United_Kingdom-DA291C?style=for-the-badge)](#)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Clinical-Quality-Artifical-Intelligence.Clinical-Quality-Artifical-Intelligence&style=for-the-badge&color=005EB8)](#)
 
 *Built by nurses, for nurses — free, open-source, and deployable in minutes.*
 
@@ -424,4 +423,4 @@ All projects use the **MIT Licence** unless stated.
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,005EB8,003087&height=100&section=footer" width="100%" />
+<img src="banner.svg" alt="" width="100%" />

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003087;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#005EB8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0072CE;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.06" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="180" fill="url(#bg)" rx="8"/>
+
+  <!-- Decorative wave shape -->
+  <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,180 L0,180 Z" fill="url(#wave)"/>
+
+  <!-- NHS Cross motif (subtle, left side) -->
+  <rect x="60" y="55" width="12" height="70" fill="white" opacity="0.15" rx="2"/>
+  <rect x="30" y="85" width="72" height="12" fill="white" opacity="0.15" rx="2"/>
+
+  <!-- Main Title -->
+  <text x="600" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="38" font-weight="700"
+        fill="white" text-anchor="middle" letter-spacing="1">
+    🏥 Clinical Quality Artificial Intelligence
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400"
+        fill="rgba(255,255,255,0.88)" text-anchor="middle" letter-spacing="0.5">
+    Open-Source AI · UK Nursing Education &amp; Clinical Practice
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="148" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="300"
+        fill="rgba(255,255,255,0.65)" text-anchor="middle" font-style="italic">
+    Built by nurses, for nurses — free, open-source, and deployable in minutes
+  </text>
+</svg>

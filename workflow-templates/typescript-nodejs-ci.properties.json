@@ -1,0 +1,6 @@
+{
+  "name": "CQAI — TypeScript / Node.js CI",
+  "description": "Type-check, lint, build, and audit dependencies for TypeScript projects (FHIR validator, NurseStack, etc.). Runs on Node 20 and 22.",
+  "iconName": "typescript",
+  "categories": ["TypeScript", "Continuous integration"]
+}

@@ -1,0 +1,51 @@
+name: Mark Stale Issues and PRs
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # daily at 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Issues
+          days-before-issue-stale: 60
+          days-before-issue-close: 14
+          stale-issue-label: "stale"
+          stale-issue-message: >
+            👋 This issue has been open for 60 days with no activity.
+            It will be closed in 14 days unless there is further discussion.
+            If this is still relevant, please leave a comment or remove the `stale` label.
+            Clinical safety issues are never automatically closed — email
+            nursingcitizendevelopment@gmail.com if urgent.
+          close-issue-message: >
+            🔒 This issue has been automatically closed due to inactivity.
+            Please re-open if it is still relevant, or open a new issue with updated details.
+
+          # Pull Requests
+          days-before-pr-stale: 30
+          days-before-pr-close: 14
+          stale-pr-label: "stale"
+          stale-pr-message: >
+            👋 This pull request has had no activity for 30 days.
+            It will be closed in 14 days unless updated.
+            Please rebase or leave a comment to keep it open.
+          close-pr-message: >
+            🔒 This PR has been automatically closed due to inactivity.
+            Please re-open or submit a new PR if the work is still relevant.
+
+          # Never auto-close clinical safety or pinned items
+          exempt-issue-labels: "clinical-safety,pinned,security,priority"
+          exempt-pr-labels: "clinical-safety,pinned,security"
+
+          # Don't mark as stale if any of these labels are present
+          exempt-all-assignees: false
+          operations-per-run: 30

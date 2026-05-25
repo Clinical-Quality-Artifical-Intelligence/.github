@@ -385,10 +385,10 @@ We welcome contributions from nurses, nursing educators, healthcare technologist
 | How to contribute | |
 |---|---|
 | ⭐ **Star a repository** | Show support and help others discover these tools |
-| 🐛 **Open an issue** | Report a bug, clinical inaccuracy, or suggest a feature |
+| 🐛 **[Open an issue](https://github.com/Clinical-Quality-Artifical-Intelligence/.github/issues/new/choose)** | Report a bug, clinical inaccuracy, or suggest a feature |
 | 🔀 **Submit a pull request** | Add questions, fix bugs, improve UI — all welcome |
 | 📖 **Improve documentation** | Clinical accuracy in descriptions matters enormously |
-| 💬 **Start a discussion** | Help shape the roadmap and ethical AI priorities |
+| 💬 **[Start a discussion](https://github.com/orgs/Clinical-Quality-Artifical-Intelligence/discussions)** | Help shape the roadmap and ethical AI priorities |
 | 🌐 **Translate content** | Help reach non-English-speaking nursing communities |
 
 Please read our **[Contributing Guide](https://github.com/Clinical-Quality-Artifical-Intelligence/.github/blob/main/CONTRIBUTING.md)** and **[Code of Conduct](https://github.com/Clinical-Quality-Artifical-Intelligence/.github/blob/main/CODE_OF_CONDUCT.md)** before contributing.

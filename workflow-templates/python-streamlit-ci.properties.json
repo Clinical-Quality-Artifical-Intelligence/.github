@@ -1,0 +1,6 @@
+{
+  "name": "CQAI — Python / Streamlit CI",
+  "description": "Lint, syntax-check, and audit dependencies for Streamlit-based nursing tools. Runs on Python 3.11 and 3.12.",
+  "iconName": "python",
+  "categories": ["Python", "Continuous integration"]
+}

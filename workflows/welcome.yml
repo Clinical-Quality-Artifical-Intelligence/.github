@@ -1,0 +1,42 @@
+name: Welcome First-Time Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          issue-message: |
+            👋 Welcome, and thank you for opening your first issue with **Clinical Quality Artificial Intelligence**!
+
+            We're a nurse-led open-source community — clinical expertise matters just as much as technical skills here.
+
+            **What happens next:**
+            - A maintainer will review your issue within a few days.
+            - For **clinical inaccuracies**, we aim to respond within 48 hours.
+            - For **urgent patient safety concerns**, please also email nursingcitizendevelopment@gmail.com.
+
+            While you wait, feel free to explore our [free nursing tools on Hugging Face](https://huggingface.co/NurseCitizenDeveloper) or read our [Contributing Guide](https://github.com/Clinical-Quality-Artifical-Intelligence/.github/blob/main/CONTRIBUTING.md). 💙
+
+          pr-message: |
+            👋 Thank you for your first pull request with **Clinical Quality Artificial Intelligence**! 🎉
+
+            Whether you're a nurse contributing clinical knowledge or a developer improving the code, your contribution matters enormously.
+
+            **Checklist before we review:**
+            - [ ] PR template is fully completed (especially the clinical accuracy section if applicable)
+            - [ ] Clinical content is sourced to current UK guidelines (BNF, NICE, NMC, RCP)
+            - [ ] Tested locally with `streamlit run app.py` (or `npm run dev` for TS projects)
+
+            A maintainer will review your PR soon. Thank you for helping make quality nursing education tools freely available. 💙
